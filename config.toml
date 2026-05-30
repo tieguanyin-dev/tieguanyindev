@@ -1,0 +1,4 @@
+baseURL = "https://hugo.onrender.com"
+languageCode = "en-us"
+title = "Maleware Petya"
+theme = "ananke"
