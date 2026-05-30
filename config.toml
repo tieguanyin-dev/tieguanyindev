@@ -1,4 +1,7 @@
-baseURL = "https://hugo.onrender.com"
+baseURL = "https://tieguanyin-dev.github.io/tieguanyindev/"
 languageCode = "en-us"
-title = "Maleware Petya"
-theme = "ananke"
+title = "Tieguanyin Tea Stories"
+theme = "hello-coolapso"
+
+[params]
+  description = "A Hugo website about tea, Guanyin, and the origin of Tieguanyin tea."
