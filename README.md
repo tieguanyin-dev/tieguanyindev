@@ -22,3 +22,10 @@ hugo
 ### GitHub Pages
 
 A GitHub Actions workflow is included to publish the Hugo site to GitHub Pages.
+
+Live URL:
+- https://tieguanyin-dev.github.io/tieguanyindev/
+
+Important:
+- https://tieguanyin-dev.github.io/ is the account root, not this project path.
+- The theme is included in this repo at `themes/hello-coolapso` and is selected in `config.toml` with `theme = "hello-coolapso"`.
