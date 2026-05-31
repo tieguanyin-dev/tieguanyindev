@@ -1,7 +1,57 @@
 baseURL = "https://tieguanyin-dev.github.io/tieguanyindev/"
 locale = "en-us"
 title = "Tieguanyin Tea Stories"
-theme = "hello-coolapso"
+theme = "hello-4s3ti"
 
 [params]
+  homeTitle = "Tieguanyin Tea Stories"
+  homeSubtitle = "Tea culture, Guanyin, and the story of Tieguanyin"
   description = "A Hugo website about tea, Guanyin, and the origin of Tieguanyin tea."
+  keywords = "tea, tieguanyin, guanyin, oolong"
+  contentTypeName = "posts"
+  showPosts = true
+  socialIcons = true
+  paginate = 5
+  defaultTheme = "light"
+  EnableThemeToggle = true
+  ReadMoreText = true
+  customCSS = ["https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"]
+
+  [params.author]
+    name = "tieguanyin-dev"
+
+  [params.logo]
+    logoText = "tieguanyindev"
+    logoHomeLink = "/"
+
+  [params.footer]
+    socialIcons = true
+    trademark = true
+    author = true
+    rss = true
+    bottomText = ["Powered by Hugo", "Theme: hello-4s3ti"]
+
+[[params.social]]
+  name = "github"
+  url = "https://github.com/tieguanyin-dev/tieguanyindev"
+
+[[params.social]]
+  name = "instagram"
+  url = "https://instagram.com/"
+
+[[params.social]]
+  name = "x-twitter"
+  url = "https://x.com/"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 2

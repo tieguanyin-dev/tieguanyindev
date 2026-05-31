@@ -1,6 +1,6 @@
 ## Tieguanyin Tea Website
 
-This repository contains a Hugo website built with the **hello-coolapso** template.
+This repository contains a Hugo website built with the **hello-4s3ti** template.
 
 The site includes content about:
 - tea culture
@@ -28,4 +28,4 @@ Live URL:
 
 Important:
 - https://tieguanyin-dev.github.io/ is the account root, not this project path.
-- The theme is included in this repo at `themes/hello-coolapso` and is selected in `config.toml` with `theme = "hello-coolapso"`.
+- The official theme is included as a git submodule at `themes/hello-4s3ti` and selected in `config.toml` with `theme = "hello-4s3ti"`.
