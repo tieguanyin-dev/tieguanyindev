@@ -31,17 +31,17 @@ theme = "hello-4s3ti"
     rss = true
     bottomText = ["Powered by Hugo", "Theme: hello-4s3ti"]
 
-[[params.social]]
-  name = "github"
-  url = "https://github.com/tieguanyin-dev/tieguanyindev"
-
-[[params.social]]
-  name = "instagram"
-  url = "https://instagram.com/"
-
-[[params.social]]
-  name = "x-twitter"
-  url = "https://x.com/"
+#[[params.social]]
+#  name = "github"
+#  url = "https://github.com/tieguanyin-dev/tieguanyindev"
+#
+#[[params.social]]
+#  name = "instagram"
+#  url = "https://instagram.com/"
+#
+#[[params.social]]
+#  name = "x-twitter"
+#  url = "https://x.com/"
 
 [menu]
   [[menu.main]]
